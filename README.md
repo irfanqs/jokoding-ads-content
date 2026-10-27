@@ -1,6 +1,38 @@
 # Jokoding Ads Content
 
-## Versi terbaru: Remotion, dua tokoh stickman, dan voice-over
+## Versi terbaru: Satu Baris Doang — percakapan natural
+
+- **[Unduh video terbaru, 60 detik](https://github.com/irfanqs/jokoding-ads-content/raw/refs/heads/main/reels/jokoding-natural-60s.mp4)**
+- [Naskah dan caption](reels/jokoding-natural-naskah.md)
+- [Subtitle SRT](reels/jokoding-natural-60s.srt)
+
+<img src="reels/jokoding-natural-poster.jpg" alt="Raka dan Naya mengobrol di kamar kos sambil melihat tugas koding" width="360" />
+
+Mengikuti gaya animasi **video WhatsApp yang diunggah pengguna**: ilustrasi 2D bergaris tipis, warna redup, latar berperspektif yang memenuhi layar, vignette krem, perpindahan sudut kamera, serta subtitle pendek dengan sorotan kuning. Adegan kos, laptop, ponsel, dan cangkir dianimasikan di Remotion. Materi referensi hanya digunakan untuk mengamati gaya; footage dan audionya tidak disalin.
+
+Raka dan Naya memakai bahasa percakapan sehari-hari. Humor muncul dari reaksi mereka, tanpa punchline di setiap balasan. Ada 18 giliran bicara, jeda percakapan, dan kartu CTA visual selama 2,5 detik terakhir. Kedua suara tetap merupakan **voice-over sintetis Indonesia**. Sorotan kata menggunakan timestamp TTS; bukaan mulut mengikuti energi audio, bukan lip-sync fonem.
+
+### Render versi terbaru
+
+```sh
+npm ci
+npm run typecheck
+npm run studio
+npm run render
+```
+
+Pilih komposisi `JokodingNatural` di Studio. Hasil render: `reels/jokoding-natural-60s.mp4`, 1080 × 1920, 30 fps, 60 detik. Chromium di lingkungan ini berada di `/usr/bin/chromium`. Rendering memakai audio yang sudah disertakan dan tidak memerlukan layanan TTS.
+
+- Animasi: `src/natural.tsx`.
+- Dialog: `src/natural-dialogue.json`.
+- Timing kata, adegan, dan energi audio: `src/natural-timing.json`.
+- Audio: `public/audio/natural/`.
+- Regenerasi suara: `python scripts/natural_voiceover.py` dengan `edge-tts==7.3.1` dan FFmpeg. Cache audio berdasarkan teks dan suara; perubahan dialog menghasilkan klip baru. Timing dan SRT ikut diperbarui. Skrip menolak naskah yang perlu dipercepat berlebihan.
+- Musik piano sintetis orisinal: `python scripts/natural_music.py` dengan NumPy dan FFmpeg.
+
+Untuk video sebelumnya, gunakan `npm run render:previous` (komposisi `Jokoding`).
+
+## Arsip versi kedua: Remotion, dua tokoh stickman, dan voice-over
 
 - [Unduh video Remotion 60 detik](https://github.com/irfanqs/jokoding-ads-content/raw/refs/heads/main/reels/jokoding-remotion-60s.mp4)
 - [Naskah dan caption terbaru](reels/jokoding-remotion-naskah.md)
@@ -23,7 +55,7 @@ npm run studio
 npm run render
 ```
 
-`npm run render` menghasilkan `reels/jokoding-remotion-60s.mp4`. Rendering tidak membutuhkan API key atau layanan TTS karena semua audio sudah disertakan. Jika lokasi Chromium berbeda, sesuaikan `--browser-executable` pada perintah di `package.json`.
+`npm run render:previous` menghasilkan `reels/jokoding-remotion-60s.mp4`. Rendering tidak membutuhkan API key atau layanan TTS karena semua audio sudah disertakan. Jika lokasi Chromium berbeda, sesuaikan `--browser-executable` pada perintah di `package.json`.
 
 Untuk membuat ulang voice-over setelah mengubah dialog, pasang `edge-tts==7.3.1` lalu jalankan `python scripts/voiceover.py`. Hapus hanya klip `public/audio/line-XX.mp3` yang memang ingin dibuat ulang; skrip mempertahankan klip yang sudah ada. FFmpeg dan ffprobe diperlukan untuk menyesuaikan durasi. Proses TTS membutuhkan koneksi ke layanan Microsoft; TLS tetap diverifikasi menggunakan CA sistem. Setelah mengubah durasi, sesuaikan juga SRT dan naskah.
 

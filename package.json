@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "studio": "remotion studio src/index.ts --browser-executable=/usr/bin/chromium",
-    "render": "remotion render src/index.ts Jokoding reels/jokoding-remotion-60s.mp4 --browser-executable=/usr/bin/chromium --concurrency=2 --codec=h264 --crf=18",
+    "render": "remotion render src/index.ts JokodingNatural reels/jokoding-natural-60s.mp4 --browser-executable=/usr/bin/chromium --concurrency=4 --codec=h264 --crf=18",
+    "render:previous": "remotion render src/index.ts Jokoding reels/jokoding-remotion-60s.mp4 --browser-executable=/usr/bin/chromium --concurrency=2 --codec=h264 --crf=18",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

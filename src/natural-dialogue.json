@@ -1,0 +1,20 @@
+[
+ {"who":"raka","text":"Gue cuma ganti satu baris.","shot":"screen","act":"typing"},
+ {"who":"naya","text":"Terus?","shot":"wide","act":"enter"},
+ {"who":"raka","text":"Yang error malah nambah.","shot":"raka","act":"stare"},
+ {"who":"naya","text":"Coba, sini gue lihat.","shot":"wide","act":"lean"},
+ {"who":"raka","text":"Udah dari tadi. Besok pagi dikumpulin.","shot":"wide","act":"tired"},
+ {"who":"naya","text":"Lo udah cek bagian ini?","shot":"screen","act":"point"},
+ {"who":"raka","text":"Udah. Kayaknya.","shot":"raka","act":"shrug"},
+ {"who":"naya","text":"Kayaknya gimana?","shot":"naya","act":"look"},
+ {"who":"raka","text":"Gue udah nggak yakin sama apa-apa.","shot":"wide","act":"slump"},
+ {"who":"naya","text":"Ya udah. Coba tanya Jokoding aja.","shot":"naya","act":"phone"},
+ {"who":"raka","text":"Yang bantu koding itu?","shot":"raka","act":"look"},
+ {"who":"naya","text":"Iya. Kirim dulu tugas sama errornya.","shot":"phone","act":"show"},
+ {"who":"raka","text":"Sama deadline-nya, kan? Oke, gue chat.","shot":"phone","act":"send"},
+ {"who":"naya","text":"Tanyain juga bagian yang lo belum ngerti.","shot":"wide","act":"explain"},
+ {"who":"raka","text":"Iya. Biar besok nggak bengong.","shot":"raka","act":"smile"},
+ {"who":"naya","text":"Nah. Sekarang minum dulu.","shot":"wide","act":"cup"},
+ {"who":"raka","text":"Lah, kopi gue udah dingin.","shot":"raka","act":"drink"},
+ {"who":"naya","text":"Ya udah, bikin lagi.","shot":"wide","act":"smile"}
+]

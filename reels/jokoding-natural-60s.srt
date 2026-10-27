@@ -1,0 +1,71 @@
+1
+00:00:00,000 --> 00:00:02,502
+Gue cuma ganti satu baris.
+
+2
+00:00:02,502 --> 00:00:04,260
+Terus?
+
+3
+00:00:04,260 --> 00:00:06,536
+Yang error malah nambah.
+
+4
+00:00:06,536 --> 00:00:09,625
+Coba, sini gue lihat.
+
+5
+00:00:09,625 --> 00:00:13,753
+Udah dari tadi. Besok pagi dikumpulin.
+
+6
+00:00:13,753 --> 00:00:16,368
+Lo udah cek bagian ini?
+
+7
+00:00:16,368 --> 00:00:19,615
+Udah. Kayaknya.
+
+8
+00:00:19,615 --> 00:00:21,959
+Kayaknya gimana?
+
+9
+00:00:21,959 --> 00:00:24,507
+Gue udah nggak yakin sama apa-apa.
+
+10
+00:00:24,507 --> 00:00:29,085
+Ya udah. Coba tanya Jokoding aja.
+
+11
+00:00:29,085 --> 00:00:31,272
+Yang bantu koding itu?
+
+12
+00:00:31,272 --> 00:00:35,805
+Iya. Kirim dulu tugas sama errornya.
+
+13
+00:00:35,805 --> 00:00:40,700
+Sama deadline-nya, kan? Oke, gue chat.
+
+14
+00:00:40,700 --> 00:00:44,150
+Tanyain juga bagian yang lo belum ngerti.
+
+15
+00:00:44,150 --> 00:00:47,849
+Iya. Biar besok nggak bengong.
+
+16
+00:00:47,849 --> 00:00:51,773
+Nah. Sekarang minum dulu.
+
+17
+00:00:51,773 --> 00:00:54,546
+Lah, kopi gue udah dingin.
+
+18
+00:00:54,546 --> 00:00:57,500
+Ya udah, bikin lagi.
