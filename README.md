@@ -1,6 +1,39 @@
 # Jokoding Ads Content
 
-## Reels: Yang Running Cuma Deadline
+## Versi terbaru: Remotion, dua tokoh stickman, dan voice-over
+
+- [Unduh video Remotion 60 detik](https://github.com/irfanqs/jokoding-ads-content/raw/refs/heads/main/reels/jokoding-remotion-60s.mp4)
+- [Naskah dan caption terbaru](reels/jokoding-remotion-naskah.md)
+- [Subtitle SRT](reels/jokoding-remotion-60s.srt)
+
+<img src="reels/jokoding-remotion-poster.jpg" alt="Raka panik karena error bertambah, sementara Naya menemaninya" width="360" />
+
+Video vertikal **1080 × 1920, 30 fps, 60 detik**. Raka dan Naya berinteraksi melalui gestur, ekspresi, mulut saat berbicara, reaksi terhadap bug, serta adegan ponsel. Semua karakter dan properti digambar sebagai SVG dan dianimasikan per frame di React/Remotion. Tidak menggunakan gambar diam sebagai adegan.
+
+Voice-over Indonesia sintetis: Ardi untuk Raka dan Gadis untuk Naya. Dialog dan timing ada di `src/dialogue.json` dan `src/timing.json`; audio siap render disertakan di `public/audio`. Gerakan mulut bersifat stilisasi saat dialog aktif, bukan lip-sync fonem. Highlight kata di subtitle memakai perkiraan progres durasi dialog.
+
+### Menjalankan proyek
+
+Prasyarat: Node.js 22+ dan Chromium. Lingkungan cloud ini memakai Node.js 24 dan `/usr/bin/chromium`.
+
+```sh
+npm ci
+npm run typecheck
+npm run studio
+npm run render
+```
+
+`npm run render` menghasilkan `reels/jokoding-remotion-60s.mp4`. Rendering tidak membutuhkan API key atau layanan TTS karena semua audio sudah disertakan. Jika lokasi Chromium berbeda, sesuaikan `--browser-executable` pada perintah di `package.json`.
+
+Untuk membuat ulang voice-over setelah mengubah dialog, pasang `edge-tts==7.3.1` lalu jalankan `python scripts/voiceover.py`. Hapus hanya klip `public/audio/line-XX.mp3` yang memang ingin dibuat ulang; skrip mempertahankan klip yang sudah ada. FFmpeg dan ffprobe diperlukan untuk menyesuaikan durasi. Proses TTS membutuhkan koneksi ke layanan Microsoft; TLS tetap diverifikasi menggunakan CA sistem. Setelah mengubah durasi, sesuaikan juga SRT dan naskah.
+
+### Referensi visual
+
+[Referensi Instagram yang diberikan](https://www.instagram.com/reel/De-127zhMM0/) berhasil diakses ulang saat produksi versi ini. Referensi berisi video ilustrasi edukasi CTM dengan durasi sekitar 73,6 detik. Pendekatan visual yang diadaptasi: ilustrasi 2D sederhana, komposisi vertikal, perubahan adegan, gerak kamera, dan subtitle dengan sorotan kata. Cerita, karakter, dialog, dan animasi Jokoding dibuat baru; video/audio referensi tidak disertakan atau digunakan ulang. Warna krem, hijau, dan identitas Jokoding mengikuti materi pengguna.
+
+Musik dan efek sintetis orisinal dari produksi sebelumnya dipakai sebagai latar pelan. Tidak ada klaim harga, jaminan nilai, atau waktu pengerjaan layanan.
+
+## Arsip versi pertama: Yang Running Cuma Deadline
 
 - [Unduh video MP4](https://github.com/irfanqs/jokoding-ads-content/raw/refs/heads/main/reels/jokoding-60s/jokoding-reels-60s.mp4)
 - [Naskah dan caption](reels/jokoding-60s/naskah.md)

@@ -1,0 +1,17 @@
+[
+ {"start":0,"end":4,"who":"raka","text":"Aku berhasil menghilangkan lima error.","title":"5 ERROR HILANG?!","beat":"brag"},
+ {"start":4,"end":6,"who":"naya","text":"Wah, kok bisa?","title":"TUNGGU DULU…","beat":"curious"},
+ {"start":6,"end":9,"who":"raka","text":"Sekarang jadi dua belas.","title":"MALAH JADI 12.","beat":"panic"},
+ {"start":9,"end":13,"who":"naya","text":"Itu debugging apa ternak bug?","title":"BUG-NYA BERANAK.","beat":"bugs"},
+ {"start":13,"end":17,"who":"raka","text":"Tutorialnya lima menit. Nangisnya tiga semester.","title":"TUTORIAL ≠ REALITA","beat":"cry"},
+ {"start":17,"end":21,"who":"naya","text":"Coba run dulu. Jangan cuma overthinking.","title":"COBA DI-RUN DULU.","beat":"run"},
+ {"start":21,"end":25,"who":"raka","text":"Yang running cuma deadline. Aku mah loading.","title":"DEADLINE-NYA LARI.","beat":"deadline"},
+ {"start":25,"end":29,"who":"naya","text":"Sini. Coba order di Jokoding.","title":"ADA JALAN KELUAR.","beat":"offer"},
+ {"start":29,"end":32,"who":"raka","text":"Jokoding? Bisa bantu kasus begini?","title":"MULAI DARI NGOBROL.","beat":"ask"},
+ {"start":32,"end":37,"who":"naya","text":"Kirim brief, screenshot error, sama deadline. Diskusi dulu.","title":"CERITAKAN KENDALAMU.","beat":"chat"},
+ {"start":37,"end":41,"who":"raka","text":"Oke. Daripada aku debat sama titik koma.","title":"TITIK KOMA: AKU LAGI?!","beat":"send"},
+ {"start":41,"end":46,"who":"naya","text":"Nah, pelajari juga solusinya. Biar kamu paham.","title":"JALAN DAN PAHAM.","beat":"learn"},
+ {"start":46,"end":50,"who":"raka","text":"Akhirnya jalan! Aku boleh rebahan?","title":"PROGRAMNYA JALAN!","beat":"success"},
+ {"start":50,"end":54,"who":"naya","text":"Boleh. Tapi jangan bikin bug baru.","title":"REBAHAN SECUKUPNYA.","beat":"rest"},
+ {"start":54,"end":60,"who":"naya","text":"Tugas koding bikin mentok? DM Jokoding. Error jangan dipelihara.","title":"ERROR JANGAN DIPELIHARA.","beat":"cta"}
+]

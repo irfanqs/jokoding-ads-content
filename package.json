@@ -1,0 +1,20 @@
+{
+  "name": "jokoding-reels",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts --browser-executable=/usr/bin/chromium",
+    "render": "remotion render src/index.ts Jokoding reels/jokoding-remotion-60s.mp4 --browser-executable=/usr/bin/chromium --concurrency=2 --codec=h264 --crf=18",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.441",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remotion": "4.0.441"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "typescript": "5.9.3"
+  }
+}

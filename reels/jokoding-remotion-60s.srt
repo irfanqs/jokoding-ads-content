@@ -1,0 +1,59 @@
+1
+00:00:00,167 --> 00:00:02,999
+Aku berhasil menghilangkan lima error.
+
+2
+00:00:04,167 --> 00:00:05,871
+Wah, kok bisa?
+
+3
+00:00:06,167 --> 00:00:08,447
+Sekarang jadi dua belas.
+
+4
+00:00:09,167 --> 00:00:12,023
+Itu debugging apa ternak bug?
+
+5
+00:00:13,167 --> 00:00:16,863
+Tutorialnya lima menit. Nangisnya tiga semester.
+
+6
+00:00:17,167 --> 00:00:20,863
+Coba run dulu. Jangan cuma overthinking.
+
+7
+00:00:21,167 --> 00:00:24,863
+Yang running cuma deadline. Aku mah loading.
+
+8
+00:00:25,167 --> 00:00:28,863
+Sini. Coba order di Jokoding.
+
+9
+00:00:29,167 --> 00:00:31,855
+Jokoding? Bisa bantu kasus begini?
+
+10
+00:00:32,167 --> 00:00:36,871
+Kirim brief, screenshot error, sama deadline. Diskusi dulu.
+
+11
+00:00:37,167 --> 00:00:40,863
+Oke. Daripada aku debat sama titik koma.
+
+12
+00:00:41,167 --> 00:00:45,871
+Nah, pelajari juga solusinya. Biar kamu paham.
+
+13
+00:00:46,167 --> 00:00:49,863
+Akhirnya jalan! Aku boleh rebahan?
+
+14
+00:00:50,167 --> 00:00:53,863
+Boleh. Tapi jangan bikin bug baru.
+
+15
+00:00:54,167 --> 00:00:59,855
+Tugas koding bikin mentok? DM Jokoding. Error jangan dipelihara.

@@ -1,0 +1,137 @@
+[
+  {
+    "start": 0,
+    "end": 4,
+    "who": "raka",
+    "text": "Aku berhasil menghilangkan lima error.",
+    "title": "5 ERROR HILANG?!",
+    "beat": "brag",
+    "audioDuration": 2.832
+  },
+  {
+    "start": 4,
+    "end": 6,
+    "who": "naya",
+    "text": "Wah, kok bisa?",
+    "title": "TUNGGU DULU…",
+    "beat": "curious",
+    "audioDuration": 1.704
+  },
+  {
+    "start": 6,
+    "end": 9,
+    "who": "raka",
+    "text": "Sekarang jadi dua belas.",
+    "title": "MALAH JADI 12.",
+    "beat": "panic",
+    "audioDuration": 2.28
+  },
+  {
+    "start": 9,
+    "end": 13,
+    "who": "naya",
+    "text": "Itu debugging apa ternak bug?",
+    "title": "BUG-NYA BERANAK.",
+    "beat": "bugs",
+    "audioDuration": 2.856
+  },
+  {
+    "start": 13,
+    "end": 17,
+    "who": "raka",
+    "text": "Tutorialnya lima menit. Nangisnya tiga semester.",
+    "title": "TUTORIAL ≠ REALITA",
+    "beat": "cry",
+    "audioDuration": 3.696
+  },
+  {
+    "start": 17,
+    "end": 21,
+    "who": "naya",
+    "text": "Coba run dulu. Jangan cuma overthinking.",
+    "title": "COBA DI-RUN DULU.",
+    "beat": "run",
+    "audioDuration": 3.696
+  },
+  {
+    "start": 21,
+    "end": 25,
+    "who": "raka",
+    "text": "Yang running cuma deadline. Aku mah loading.",
+    "title": "DEADLINE-NYA LARI.",
+    "beat": "deadline",
+    "audioDuration": 3.696
+  },
+  {
+    "start": 25,
+    "end": 29,
+    "who": "naya",
+    "text": "Sini. Coba order di Jokoding.",
+    "title": "ADA JALAN KELUAR.",
+    "beat": "offer",
+    "audioDuration": 3.696
+  },
+  {
+    "start": 29,
+    "end": 32,
+    "who": "raka",
+    "text": "Jokoding? Bisa bantu kasus begini?",
+    "title": "MULAI DARI NGOBROL.",
+    "beat": "ask",
+    "audioDuration": 2.688
+  },
+  {
+    "start": 32,
+    "end": 37,
+    "who": "naya",
+    "text": "Kirim brief, screenshot error, sama deadline. Diskusi dulu.",
+    "title": "CERITAKAN KENDALAMU.",
+    "beat": "chat",
+    "audioDuration": 4.704
+  },
+  {
+    "start": 37,
+    "end": 41,
+    "who": "raka",
+    "text": "Oke. Daripada aku debat sama titik koma.",
+    "title": "TITIK KOMA: AKU LAGI?!",
+    "beat": "send",
+    "audioDuration": 3.696
+  },
+  {
+    "start": 41,
+    "end": 46,
+    "who": "naya",
+    "text": "Nah, pelajari juga solusinya. Biar kamu paham.",
+    "title": "JALAN DAN PAHAM.",
+    "beat": "learn",
+    "audioDuration": 4.704
+  },
+  {
+    "start": 46,
+    "end": 50,
+    "who": "raka",
+    "text": "Akhirnya jalan! Aku boleh rebahan?",
+    "title": "PROGRAMNYA JALAN!",
+    "beat": "success",
+    "audioDuration": 3.696
+  },
+  {
+    "start": 50,
+    "end": 54,
+    "who": "naya",
+    "text": "Boleh. Tapi jangan bikin bug baru.",
+    "title": "REBAHAN SECUKUPNYA.",
+    "beat": "rest",
+    "audioDuration": 3.696
+  },
+  {
+    "start": 54,
+    "end": 60,
+    "who": "naya",
+    "text": "Tugas koding bikin mentok? DM Jokoding. Error jangan dipelihara.",
+    "title": "ERROR JANGAN DIPELIHARA.",
+    "beat": "cta",
+    "audioDuration": 5.688
+  }
+]
